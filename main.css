@@ -43,6 +43,11 @@
     text-align: center;
   }
 
+  header input:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
+
   header input::placeholder{
     color: rgba(240, 199, 138, 0.925);
     text-align: center;
@@ -71,6 +76,13 @@
     font-weight: 500;
     margin-bottom: 5px;
     font-weight: bold;
+    cursor: default;
+    padding-bottom: 20px;
+  }
+
+  .location .city:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
   }
   
   .location .date {
@@ -85,6 +97,12 @@
     margin: 30px 0px;
     text-shadow: 2px 10px rgba(0, 0, 0, 0.6);
     font-style: bold;
+    cursor: default;
+  }
+
+  .current .temp:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
   }
   
   .current .temp span {
@@ -97,6 +115,11 @@
     font-weight: 700;
     margin-bottom: 15px;
     text-shadow: 0px 3px rgba(0, 0, 0, 0.4);
+  }
+
+  .current .weather:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
   }
   
   .current .hi-low {
