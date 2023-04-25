@@ -1,6 +1,6 @@
 # Weather App using JavaScript
 
-Simple Weather App in Python made using openweathermap.org
+Simple Weather App in JavaScript made using openweathermap.org
 
 How to run the program :
 
